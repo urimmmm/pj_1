@@ -17,7 +17,7 @@ public class Config {
         dataSource.setPassword("12341234");
         //mySQL에 드라이버 클래스
         dataSource.setDriverClassName("com.mysql.cj.jdbc.Driver");
-        dataSource.setUrl("jdbc:mysql://localhost:3306/pj_1?useUnicode=true&characterEncoding=UTF-8");
+        dataSource.setUrl("jdbc:mysql://localhost:3306/b");
         return dataSource;
     }
 
